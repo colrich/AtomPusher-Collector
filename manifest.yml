@@ -1,0 +1,8 @@
+---
+applications:
+- name: awsiot
+  memory: 512M 
+  instances: 1
+  host: awsiot
+  path: ./target/AwsIotCollector-0.0.1-SNAPSHOT.jar
+
